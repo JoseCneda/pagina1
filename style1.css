@@ -1,0 +1,93 @@
+body{
+    background: url(https://p4.wallpaperbetter.com/wallpaper/758/716/910/purple-sunset-minimal-4k-wallpaper-preview.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+}
+header{
+    margin-top: 5px;
+    padding: 5px;
+    text-align: center;
+}
+header > p{
+    margin-top: 0;   
+    margin-bottom: 30px;
+}
+header > h1{
+    margin-bottom: 0;
+    font-size: 3em;
+}
+.formulario{
+    background-color: rgba(91, 44, 111, 0.9);
+    max-width: 700px;
+    width: 100%;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 0.5em;
+}
+#survey-form{
+    font-size: 1.5em;
+    max-width: 600px;
+    width: 100%;
+    margin: auto;
+}
+label{
+    cursor: default;
+    display: flex;
+}
+p{
+    margin: 0;
+}
+div > label{
+    max-width: 700px;
+    width: 100%;
+}
+div > input{
+    max-width: 700px;
+    width: 100%;
+    min-height: 2.3em;
+    border-radius: 5px;
+}
+div > select{
+    max-width: 700px;
+    width: 100%;
+    min-height: 2.3em;
+    border-radius: 5px;
+}
+#survey-form > div{
+    margin-bottom: 5px;
+    padding-bottom: 9px;
+}
+.input-radio{
+    min-height: 2em;
+    max-width: 1.5em;
+    width: 100%;
+}
+.input-check{
+    min-height: 2em;
+    max-width: 1.5em;
+    width: 100%;
+}
+textarea{
+    max-width: 700px;
+    width: 100%;
+    min-height: 100px;
+}
+#button{
+    text-align: center;
+    margin-top: 35px;
+}
+button{
+    max-width: 100px;
+    width: 100%;
+    min-height: 3em;
+}
+button:hover{
+    background-color: green;
+    color: white;
+    transition: 1.5s;
+}

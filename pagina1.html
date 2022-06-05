@@ -1,0 +1,55 @@
+<!DOCTYPE hmtl>
+<html>
+  <head>
+    <link rel="stylesheet" href="style1.css"/>
+  </head>
+  <body>
+   <header> 
+     <h1 id="title">Formulario de Registro</h1>
+     <p id="description">Debes ingresar tus datos correctamente</p>
+    </header>
+    <div class="formulario">
+      <form id="survey-form">
+        <div class="form">
+          <label id="name-label" for="name">Ingresar Nombre</label>
+          <input id="name" type="text" required placeholder="Nombre Completo" class="form-control"/> 
+        </div>
+        <div class="form">
+          <label id="email-label" for="email">Ingresar Correo</label>
+          <input id="email" type="email" required placeholder="Correo Electronico" class="form-control"/>
+        </div>
+        <div class="form">
+          <label id="number-label" for="number">Ingresar Edad</label>
+          <input id="number" type="number" min="1" max="100" required placeholder="Edad" class="form-control"/>
+        </div>
+        <div>
+          <p>Estado Civil</p>
+          <select id="dropdown" name="estado" class="form-control" required>
+            <option disabled selected value >Seleccione su estado civil</option>
+            <option value="Soltero">Soltero<option>
+            <option value="Casado">Casado<option>
+              <option value="Viudo">Viudo<option>
+          </select>
+        </div>
+        <div>
+          <p>Genero</p>
+          <label><input type="radio" value="masculino" name="genero" class="input-radio">Masculino</label>
+          <label><input type="radio" value="femenino" name="genero" class="input-radio">Femenino</label>
+        </div>
+        <div>
+          <p>Tipo de transporte</lab>
+          <label><input type="checkbox" name="transporte" value="vehiculoPropio" class="input-check">Vehivulo propio</label>
+          <label><input type="checkbox" name="transporte" value="autobus" class="input-check">Autobus</label>
+          <label><input type="checkbox" name="transporte" value="bicleta" class="input-check">Bicicleta</label>
+        </div>
+        <div>
+          <p>Direccion Residencial</p>
+          <textarea id="comentarios" placeholder="Ingresa tu direccion"></textarea>
+        </div>
+        <div id="button">
+          <button id="submit" type="submit" class="btn">Enviar</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
